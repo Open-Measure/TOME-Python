@@ -9,9 +9,9 @@ def stream_ul(latex_stream, node, depth):
     from stream_single_node import stream_single_node
 
     log_info(f"{chr(32) * depth}ul")
-    write_latex_stream(latex_stream, f"\\begin{{itemize}}")
+    write_latex_stream(latex_stream, f"\\begin{{enumerate}}")
     for child_node in node.find_all("li"):
         stream_single_node(latex_stream, child_node, depth)
-    write_latex_stream(latex_stream, f"\\end{{itemize}}")
+    write_latex_stream(latex_stream, f"\\end{{enumerate}}")
     # Return the next node
     return node.next_sibling
