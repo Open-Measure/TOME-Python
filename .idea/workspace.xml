@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c87a5f0-f620-4392-bcfe-2ee8b5543624" name="Default Changelist" comment="" />
+    <list default="true" id="7c87a5f0-f620-4392-bcfe-2ee8b5543624" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_TEST.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_adjacent_html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/get_inner_html.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/convert_confluence_page_xml_to_latex_dic_entry.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/get_confluence_page_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_confluence_page_latex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/log_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/save_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/save_file.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +38,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\david\Google Drive (openmeasure@gmail.com)\Private\GitHub\TOME-Python" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -188,10 +204,50 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>131</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>168</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>198</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex_dic_entry.py</url>
-          <line>69</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>257</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>321</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>332</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>342</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py</url>
+          <line>353</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
