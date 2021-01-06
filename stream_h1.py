@@ -21,6 +21,7 @@ def stream_h1(latex_stream, node, depth):
     # Title
     title = node.get_text("", strip=True)
     log_info(f"{chr(32) * depth}h1: {title}")
+    write_latex_stream(latex_stream, f"\\newpage")
     title_latex = convert_html_to_latex(title)
     write_latex_stream(latex_stream, f"\\subsection*{{{title_latex}}}")
 

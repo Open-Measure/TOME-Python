@@ -18,7 +18,6 @@ def stream_h3(latex_stream, node, depth):
     # Title
     title = node.get_text("", strip=True)
     log_info(f"{chr(32) * depth}h3: {title}")
-    write_latex_stream(latex_stream, f"\\clearpage")
     title_latex = convert_html_to_latex(title)
     if title[:10] == "Definition":
         # Dictionary definitions
