@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c87a5f0-f620-4392-bcfe-2ee8b5543624" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/convert_html_to_latex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_first_child.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/get_next_html_node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_blockquote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_document.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_em.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_from.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_h1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_h2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_h3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_li.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_p.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_single_node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_ul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stream_unknown.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/write_latex_stream.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert_confluence_page_xml_to_latex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_confluence_page_latex.py" beforeDir="false" afterPath="$PROJECT_DIR$/get_confluence_page_latex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/get_inner_html.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stream_h3.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_h3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_latex_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/write_latex_stream.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

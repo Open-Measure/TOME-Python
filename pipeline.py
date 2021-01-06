@@ -4,9 +4,10 @@ from log_info import log_info
 
 log_info("Pipeline started")
 space_key = "DIC"
-page_id_array = ["TEST", "998244645", "822345754", "1027080193"]
+page_id_array = ["998244645", "822345754", "1027080193"]
 # page_id_array = ["822345754"]
-force_download = False
+# page_id_array = ["TEST"]
+force_download = True
 
 for page_id in page_id_array:
     log_info(f"space_key: {space_key}, page_id: {page_id}")

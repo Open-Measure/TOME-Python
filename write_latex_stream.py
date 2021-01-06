@@ -6,4 +6,4 @@ def write_latex_stream(latex_stream, latex):
     # and this leads to syntax errors in TexStudio.
     latex = latex.replace("\r\n", " ")
     latex = latex.replace("\r", " ")
-    latex_stream.write(latex)
+    latex_stream.write(f"{latex} ")
