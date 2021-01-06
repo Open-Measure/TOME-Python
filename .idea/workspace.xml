@@ -2,9 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c87a5f0-f620-4392-bcfe-2ee8b5543624" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/BIB_998146166.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82838020.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82838169.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82838735.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82839586.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82870848.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82870977.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82870985.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82903275.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82903488.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82903896.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82903928.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_82903984.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_834044288.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_834044330.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_848363630.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_848625750.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_848724060.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_852492338.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_852492379.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_855506953.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858456124.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858456203.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858488984.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858521641.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858521682.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_858522094.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_86442069.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_873201665.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_877297665.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_881197061.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_966492169.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_974323719.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_974323764.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_974454812.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_974454827.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998113409.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998178905.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998179040.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998244454.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998244664.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998245125.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998245151.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998245198.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998277774.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998277805.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998277835.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998277852.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-json/DIC_998277876.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/BIB_998146166.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82838020.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82838169.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82838735.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82839586.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82870848.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82870977.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82870985.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82903275.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82903488.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82903896.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82903928.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_82903984.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_834044288.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_834044330.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_848363630.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_848625750.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_848724060.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_852492338.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_852492379.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_855506953.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858456124.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858456203.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858488984.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858521641.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858521682.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_858522094.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_86442069.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_873201665.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_877297665.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_881197061.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_966492169.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_974323719.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_974323764.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_974454812.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_974454827.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998113409.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998178905.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998179040.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998244454.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998244664.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998245125.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998245151.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998245198.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998277774.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998277805.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998277835.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998277852.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/confluence-page-xml/DIC_998277876.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_confluence_pages.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream_h1.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_h1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stream_h3.py" beforeDir="false" afterPath="$PROJECT_DIR$/stream_h3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_latex_stream.py" beforeDir="false" afterPath="$PROJECT_DIR$/write_latex_stream.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +175,6 @@
       <module name="IAM-Dictionary" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
