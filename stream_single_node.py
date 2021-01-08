@@ -9,7 +9,7 @@ from stream_h1 import stream_h1
 from stream_h2 import stream_h2
 from stream_h3 import stream_h3
 from stream_li import stream_li
-from stream_link import stream_link
+from stream_ac_link import stream_ac_link
 from stream_p import stream_p
 from stream_ul import stream_ul
 from stream_unknown import stream_unknown
@@ -21,7 +21,9 @@ def stream_single_node(latex_stream, node, depth=0):
     """Stream a single HTML node
     and return the next sibling node"""
     depth += 1
-    if isinstance(node, Tag):
+    if node is None:
+        return None
+    elif isinstance(node, Tag):
         if node.name == "h1":
             stream_h1(latex_stream, node, depth)
             node = None
@@ -37,8 +39,8 @@ def stream_single_node(latex_stream, node, depth=0):
             node = stream_em(latex_stream, node, depth)
         elif node.name == "ul":
             node = stream_ul(latex_stream, node, depth)
-        elif node.name == "link":
-            node = stream_link(latex_stream, node, depth)
+        elif node.name == "ac:link":
+            node = stream_ac_link(latex_stream, node, depth)
         elif node.name == "li":
             node = stream_li(latex_stream, node, depth)
         elif node.name == "code":
@@ -51,11 +53,9 @@ def stream_single_node(latex_stream, node, depth=0):
         else:
             # Other tag, i.e. tag for which we don't
             # have a special implementation.
-            log_warning(f"Unknown tag: {node.name}")
             # Content will be converted by default pypandoc behavior.
             # You may with to implement a custom handler for this node: {node}.")
             node = stream_unknown(latex_stream, node, depth)
-            # Stream through to the next sibling.
     elif isinstance(node, NavigableString):
         node_as_string = str(node.string)
         node_as_string = node_as_string.replace("\r\n", "")

@@ -1,5 +1,5 @@
 from get_confluence_page_latex import get_confluence_page_latex
-from log_info import log_info
+from log_info import log_info, set_log_warning
 from list_confluence_pages import list_confluence_pages
 import io
 import datetime
@@ -31,7 +31,15 @@ confluence_pages = list_confluence_pages(label="iam-dictionary-entry")
 
 # TODO: Sort terms alphabetically
 
+max_iterations = 10000
+i = 0
+set_log_warning()
+
 for confluence_page in confluence_pages:
+
+    i += 1
+    if i > max_iterations:
+        break
 
     page_id = confluence_page["id"]
     page_title = confluence_page["title"]
@@ -51,9 +59,9 @@ for confluence_page in confluence_pages:
 
     # page_json = get_confluence_page_json(space_key=space_key, page_id=page_id, force_download=force_download)
     # page_xml = get_confluence_page_xml(space_key=space_key, page_id=page_id, force_download=force_download)
-    # page_latex = get_confluence_page_latex(
-    #    space_key=space_key, page_id=page_id,
-    #    force_download=force_download, template="DIC Entry")
+    page_latex = get_confluence_page_latex(
+        space_key=space_key, page_id=page_id,
+        force_download=force_download, template="DIC Entry")
     # page = ConfluencePage(space_key=space_key, page_id=page_id, force_download=force_download)
     # print(page_latex)
 

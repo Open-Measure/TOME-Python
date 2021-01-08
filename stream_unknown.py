@@ -1,8 +1,10 @@
-from log_info import log_info
+from log_info import log_info, log_warning
 
 
 def stream_unknown(latex_stream, node, depth):
     """Stream an unknown <???> element and return the next node."""
+
+    log_warning(f"Unknown tag: {node.name}\n{node}\n\n")
 
     # Local module imports to avoid circular dependencies
     from stream_single_node import stream_single_node

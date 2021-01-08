@@ -13,6 +13,8 @@ def convert_html_to_latex(node):
         latex = pypandoc.convert_text(node_as_string, 'tex', format='html')
         latex = latex.replace("\r\n", " ")
         latex = latex.replace("\r", " ")
+        # Character not well supported in TexStudio
+        # latex = latex.replace("●", " \\char9679")
         return latex
     else:
         return None
