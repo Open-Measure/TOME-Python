@@ -12,5 +12,5 @@ def list_confluence_pages(label):
     # which comes in a JSON format
     # that includes page properties
     # and wrap page content
-    page_json = confluence_connection.get_all_pages_by_label(label=label)
+    page_json = confluence_connection.get_all_pages_by_label(label=label, limit=1000)
     return page_json
