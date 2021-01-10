@@ -31,24 +31,30 @@ confluence_pages = list_confluence_pages(label="iam-dictionary-entry")
 
 # TODO: Sort terms alphabetically
 
-max_iterations = 10000
+max_iterations = 1000
 i = 0
 set_log_warning()
 
+dico = {}
+
 for confluence_page in confluence_pages:
-
-    i += 1
-    if i > max_iterations:
-        break
-
-    page_id = confluence_page["id"]
     page_title = confluence_page["title"]
+    dico[page_title] = confluence_page
+
+for page_title in sorted(dico.keys(), key=lambda v: (v.casefold(), v)):
+    confluence_page = dico[page_title]
+    page_id = confluence_page["id"]
     # The space attribute is stored under the _expandable node.
     # The format of the space key is: "/rest/api/space/[SPACE_KEY]",
     # e.g.: "/rest/api/space/DIC".
     # We thus need to split the string and get the last segment.
     space_key = confluence_page["_expandable"]["space"].split("/")[-1]
-    log_info(f"space_key: {space_key}, page_id: {page_id}")
+    log_info(f"space_key: {space_key}, page_id: {page_id}, page_title: {page_title}")
+
+
+    i += 1
+    if i > max_iterations:
+        break
 
     file_tex_name = f"{space_key}_{page_id}"
     write_latex_stream(latex_stream, f"\n")

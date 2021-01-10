@@ -10,11 +10,14 @@ from stream_h2 import stream_h2
 from stream_h3 import stream_h3
 from stream_li import stream_li
 from stream_ac_link import stream_ac_link
+from stream_ac_structured_macro import stream_ac_structured_macro
 from stream_p import stream_p
 from stream_ul import stream_ul
 from stream_unknown import stream_unknown
 from write_latex_stream import write_latex_stream
 from log_info import log_warning
+from stream_a import stream_a
+from stream_br import stream_br
 
 
 def stream_single_node(latex_stream, node, depth=0):
@@ -33,14 +36,20 @@ def stream_single_node(latex_stream, node, depth=0):
             node = stream_h3(latex_stream, node, depth)
         elif node.name == "p":
             node = stream_p(latex_stream, node, depth)
+        elif node.name == "a":
+            node = stream_a(latex_stream, node, depth)
         elif node.name == "blockquote":
             node = stream_blockquote(latex_stream, node, depth)
+        elif node.name == "br":
+            node = stream_br(latex_stream, node, depth)
         elif node.name == "em":
             node = stream_em(latex_stream, node, depth)
         elif node.name == "ul":
             node = stream_ul(latex_stream, node, depth)
         elif node.name == "ac:link":
             node = stream_ac_link(latex_stream, node, depth)
+        elif node.name == "ac:structured-macro":
+            node = stream_ac_structured_macro(latex_stream, node, depth)
         elif node.name == "li":
             node = stream_li(latex_stream, node, depth)
         elif node.name == "code":
